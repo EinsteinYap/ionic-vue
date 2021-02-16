@@ -1,0 +1,43 @@
+1.npm i -g @ionic/cli
+
+2.ionic start
+
+3.choose framework you want. 
+
+if you choose vue
+
+then below step 
+4.
+visit https://ionicframework.com/docs/vue/quickstart
+npm uninstall --save typescript @types/jest @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript
+
+5.delete these file
+shims-vue.d.ts
+
+got eslintr.js delete 
+
+@vue/typescript/recommended
+
+and 
+
+'@typescript-eslint/no-explicit-any': 'off'
+
+
+delete eintire typescript file --> tsconfig.json
+
+6.got index.js remove the routes. types 
+
+and also the import { RouteRecordRaw } from 'vue-router';
+
+7.go to App.vue remove the lang="ts" at the script tag
+8.go to Home.vue remove the lang="ts" at the script tag
+
+9.git remote add origin "your repository"
+  git branch -M main
+  git push -u origin main
+
+10. starting looking at the Home.vue
+    after that remove everything of Home.vue including at route.js
+
+11. start do what ever you like 
+
