@@ -41,3 +41,19 @@ and also the import { RouteRecordRaw } from 'vue-router';
 
 11. start do what ever you like 
 
+----------------------------------------------------below are other example important info
+
+ion-toolbar{
+--background:var(--ion-color-primary)
+--color:var(--ion-color-primary-contrast)  --> if set like this only at android not for IOS
+}
+
+go to the variables.css set the toolbar like this
+
+--ion-toolbar-color:var(--ion-color-primary-contrast)
+
+go here to copy paste
+
+https://ionicframework.com/docs/theming/color-generator
+
+
