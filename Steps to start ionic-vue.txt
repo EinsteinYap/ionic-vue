@@ -1,27 +1,18 @@
 1.npm i -g @ionic/cli
-
+1b.npm install --save vuex@next
 2.ionic start
-
 3.choose framework you want. 
-
 if you choose vue
-
 then below step 
-4.
-visit https://ionicframework.com/docs/vue/quickstart
+4.visit https://ionicframework.com/docs/vue/quickstart
 npm uninstall --save typescript @types/jest @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript
 
 5.delete these file
 shims-vue.d.ts
-
 got eslintr.js delete 
-
 @vue/typescript/recommended
-
 and 
-
 '@typescript-eslint/no-explicit-any': 'off'
-
 
 delete eintire typescript file --> tsconfig.json
 
@@ -40,6 +31,20 @@ and also the import { RouteRecordRaw } from 'vue-router';
     after that remove everything of Home.vue including at route.js
 
 11. start do what ever you like 
+12.if want to build apps, use capacitor and type
+-->  ionic integrations enable capacitor
+
+after that type 
+
+npx cap init [appName] [appId] 
+then type
+ionic build .then => npx cap copy .then => npx cap add android or IOS .then => npx cap open android or ios
+
+
+
+.then go to android -> app -> src -> main -> AndroidMenifes.xml to remove the permision build
+
+npm install -g @ionic/pwa-elements for local camera
 
 ----------------------------------------------------below are other example important info
 
@@ -55,5 +60,7 @@ go to the variables.css set the toolbar like this
 go here to copy paste
 
 https://ionicframework.com/docs/theming/color-generator
+
+
 
 
